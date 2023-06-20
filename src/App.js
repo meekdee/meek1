@@ -32,7 +32,7 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault();
-    inputRef.current.value = 0; 
+    inputRef.current.value = 1; 
   }; 
  
   function resetResult(e) { 
