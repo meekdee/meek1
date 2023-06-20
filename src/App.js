@@ -32,7 +32,7 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault();
-    inputRef.current.value = 0 ; 
+    inputRef.current.value=0; 
   }; 
  
   function resetResult(e) { 
@@ -40,7 +40,7 @@ function App() {
     setResult(0);
   }; 
  
-  return ( 
+  return (
     <div className="App"> 
       <div> 
         <h1>MeekDee Simplest Working Calculator</h1> 
