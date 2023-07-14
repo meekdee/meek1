@@ -48,7 +48,7 @@ function App() {
       
         <form> 
           <p ref={resultRef}> 
-            Answer= {result} 
+            Answer = {result} 
           </p> 
           <input
             pattern="[0-9]" 
@@ -61,8 +61,8 @@ function App() {
           <button onClick={minus}>Subtract</button> 
           <button onClick={times}>Multiply</button> 
           <button onClick={divide}>Divide</button> 
-          <button onClick={resetInput}>Reset input</button> 
-          <button onClick={resetResult}>reset result</button> 
+          <button onClick={resetInput}>Reset Input</button> 
+          <button onClick={resetResult}>Reset Result</button> 
         </form> 
       
     </div> 
